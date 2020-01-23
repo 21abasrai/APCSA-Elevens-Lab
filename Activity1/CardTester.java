@@ -18,6 +18,7 @@ System.out.println("  rank: " + aceClubs1.rank());
 System.out.println("  suit: " + aceClubs1.suit());
 System.out.println("  pointValue: " + aceClubs1.pointValue());
 System.out.println("  toString: " + aceClubs1.toString());
+System.out.prtintln("comparing aceClub1 to sixHearts =" + sixHearts.matches(sixHearts));
 System.out.println();
 
 System.out.println("- six of hearts Test -");
@@ -25,6 +26,7 @@ System.out.println("  rank: " + sixHearts.rank());
 System.out.println("  suit: " + sixHearts.suit());
 System.out.println("  pointValue: " + sixHearts.pointValue());
 System.out.println("  toString: " + sixHearts.toString());
+System.out.prtintln("comparing sixHearts to fiveClubs =" + sixHearts.matches(sixHearts));
 System.out.println();
 
 System.out.println("- five of clubs Test -");
@@ -32,8 +34,9 @@ System.out.println("  rank: " + fiveClubs.rank());
 System.out.println("  suit: " + fiveClubs.suit());
 System.out.println("  pointValue: " + fiveClubs.pointValue());
 System.out.println("  toString: " + fiveClubs.toString());
+System.out.prtintln("comparing fiveClubs to aceClubs1 =" + sixHearts.matches(sixHearts));
 System.out.println();
 
-
+  
 }
 }
